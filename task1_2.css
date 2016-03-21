@@ -1,0 +1,109 @@
+body,div,header{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #cacaca;
+}
+li{list-style: none;}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #333;
+    margin-bottom: 20px;
+}
+.header .logo{
+	float: left;
+	display: inline-block;
+}
+.header .logo img{
+    height: 60px;
+    position: relative;
+    padding-left: 40px;
+}
+.header .nav{
+	float: right;
+	display: inline-block;
+}
+.header .nav li{
+	float: left;
+	position: relative;
+	padding-right: 20px;
+	color: white;
+}
+
+.section{
+	background: white;
+	padding: 10px 0;
+	margin: 20px;
+	border: thin 3px solid black;
+}
+.section .content .text{
+	text-indent: 2em;
+}
+.section .side{
+	padding: 0 30px;
+	margin-top:10px; 
+}
+.section .side .font{
+	color: #666;
+}
+
+.section .img{
+	border: 1px solid #cacaca;
+	display: inline-block;
+}
+.section .img .figure{
+	padding:0 15px 15px 15px;
+}
+.section .img p{text-align:center;}
+
+.section .side th{
+	background: #333;
+	
+}
+.section .side .long{
+	width: 500px;
+}
+.section .side .short{
+	width: 250px;
+}
+.section .side .sum{
+	background: #cacaca;
+}
+.section .side table 
+{ 
+border-collapse: collapse; 
+border: none; 
+} 
+.section .side table td {
+ border: solid #cacaca 1px;
+  } 
+.footer{
+	height: 60px;
+	background: #333;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+}
+.section .side .center{
+	position: relative;
+	padding-left: 380px;
+}
+.section .side .center .form-group{
+	padding-bottom: 10px;
+}
+.section .side .submit{
+	height: 30px;
+	width: 1000px;
+	background: #3355d0;
+	margin: 0 auto;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px;
+	padding: 10px;
+	cursor：default；
+}
